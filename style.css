@@ -233,6 +233,7 @@ h1 {
   margin: 0 auto;
   padding: 0 20px;
   grid-template-columns: repeat(2, 1fr);
+  overflow: hidden;
 }
 
 .ready-left {
@@ -270,6 +271,11 @@ h2 {
   background-color: #293A43;
 }
 
+form {
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 20px;
+}
+
 input,
 textarea {
   border: none;
@@ -285,4 +291,97 @@ textarea {
 
 input:focus {
   background-color: #fff;
+}
+
+.section-blog {
+  padding: 80px 0 100px;
+}
+
+.blog-home {
+  padding-top: 60px;
+  padding-bottom: 5px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.blog-item {
+  background-color: #F7F7F7;
+  text-decoration: none;
+  grid-template-rows: 1fr 1fr;
+  color: #666;
+  overflow: hidden;
+  transition: background-color .25s ease;
+}
+
+.blog-item-content:hover {
+  background-color: #EEECEC;
+  color: #222;
+}
+
+.blog-item:nth-child(3) {
+  grid-column: 3 / 5;
+}
+
+.blog-item:nth-child(4) {
+  grid-column: 1 / 3;
+}
+
+.blog-item-img {
+  height: 270px;
+  background-size: cover;
+  background-position: center;
+  transition: transform .25s ease;
+}
+
+.blog-item-img:hover {
+  transform: scale(1.05) translateY(-8px);
+}
+
+.blog-item-content {
+  padding: 30px 20px;
+  text-align: center;
+  align-content: center;
+}
+
+h3 {
+  padding: 0 35px;
+  font-family: 'Raleway-Bold', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.3;
+  transition: color .25s ease;
+}
+
+.blog-text {
+  font-family: 'Raleway-Regular', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 0;
+}
+
+.main-footer {
+  background-color: #1B2429;
+  padding: 60px 0;
+  text-align: center;
+  color: #4E5355;
+}
+
+.footer-logo {
+  font-family: 'IntroRegular', sans-serif;
+  font-size: 22px;
+  line-height: 1.4;
+}
+
+.footer-title {
+  font-size: 27px;
+  color: #707476;
+}
+
+.footer-copy {
+  margin-top: 18px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #494D50;
 }
