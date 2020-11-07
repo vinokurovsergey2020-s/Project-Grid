@@ -10,3 +10,5 @@ https://www.youtube.com/watch?v=iNPE0zGucTo&t=4196s
 
 "Финальный" commit адаптивной вёрстки 07.11.2020
 18-00 г. Уфа
+
+https://vinokurovsergey2020-s.github.io/Project-Grid/  -сайт.
