@@ -156,7 +156,7 @@ h1 {
   background-color: #536877;
 }
 
-/* Section-1 */
+/* Section-1 PORTFOLIO*/
 .portfolio-section {
   padding: 7px;
   grid-template-columns: repeat(4, 1fr);
@@ -267,6 +267,7 @@ h2 {
   height: auto;
 }
 
+/* Section FORM */
 .formsection {
   padding: 10px 0;
   background-color: #293A43;
