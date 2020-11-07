@@ -8,3 +8,5 @@ https://www.youtube.com/watch?v=iNPE0zGucTo&t=4196s
 
 Мой первый commit 04.11.2020
 
+"Финальный" commit адаптивной вёрстки 07.11.2020
+18-00 г. Уфа
